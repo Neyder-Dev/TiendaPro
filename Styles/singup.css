@@ -1,0 +1,115 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;  margin: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo a {
+  color: #ffe135;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+header h3 {
+  color: white;
+  font-size: x-large;
+  margin-left: auto;
+}
+
+.frente {
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.9)), 
+              url('/TiendaPro/Images/back.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 80px 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frente h2 {
+  margin: 20px 0;
+}
+
+.frente form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frente form label {
+  color: #fff;
+  font-size: 18px;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.frente form input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  width: 250px;
+}
+
+.frente form button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.frente form button:hover {
+  background-color: #ffe135;
+  transform: scale(1.05);
+}
+
+.frente form input:focus {
+  border-color: #ffe135;
+  transition: border-color 0.3s;
+}
+
+.frente .btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.frente .btn:hover {
+  background-color: #555;
+}
+
+.frente a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}

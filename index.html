@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecnoMonos - Inicio</title>
+    <link rel="stylesheet" href="/TiendaPro/Styles/Styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>TecnoMonos</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/TiendaPro/Pages/products.html">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="/TiendaPro/Pages/Carrito.html">Carrito</a></li>
+
+            </ul>
+            <a href="/TiendaPro/Pages/login.html" class="login" id="login-icon">Login <span class="material-symbols-outlined">login</span></a>
+            <a href="/TiendaPro/Pages/login.html" class="logout" id="logout-icon" style="display: none;"><span class="material-symbols-outlined">logout</span></a>
+        </nav>
+    </header>
+
+    <section class="frente">
+        <h2>Bienvenido a TecnoMonos 🐒 📲 💻</h2>
+        <p>¡Expertos en tecnología es lo que somos!</p>
+        <a href="#productos" class="btn">Ver tendencias 🍌</a>
+    </section>
+
+    <section id="productos" class="productos">
+        <h2>¡Lo último en tecnología!</h2>
+        <div id="productosGrid" class="grid"></div>
+    </section>
+    <a href="/TiendaPro/Pages/products.html" class="btn" id="compra">Quieres comprar? Vamos 🍌</a>
+    <section id="servicios" class="servicios">
+        <h2>Servicios</h2>
+        <div id="serviciosGrid" class="grid"></div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes más dudas? ¡Escríbenos para ayudarte rápidamente!</p>
+        <form action="contacto" method="post">
+            <input type="text" placeholder="Tu nombre" required />
+            <input type="email" placeholder="Tu correo" required />
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TecnoMonos</p>
+        <p>Desarrollado por: Neyder-Dev</p>
+    </footer>
+
+    <script src="/TiendaPro/Scripts/login.js"></script>
+    <script src="/TiendaPro/Scripts/topselling.js"></script>
+  <!--  <script src="/TiendaPro/Scripts/servicios.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesion - TecnoMonos</title>
+    <link rel="stylesheet" href="/TiendaPro/Styles/login.css" />
+    <link rel="icon" href="/TiendaPro/Images/ico.ico" sizes="192x192" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <a href="/TiendaPro/index.html"><h1>TecnoMonos</h1></a>
+      </div>
+      <h3>Inicio de Sesion</h3>
+    </header>
+    <section class="frente">
+      <h2>Ingresa tus credenciales 🐒</h2>
+      <form action="" method="post">
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" required />
+        <br /><br />
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password" name="password" required />
+        <br /><br />
+        <div class="form-proveedor">
+          <label for="proveedor">Soy proveedor</label>
+          <input type="checkbox" name="proveedor" id="proveedor"class="chk-proveedor"/>
+        </div>
+        <p class="error_login" id="error_login"></p>
+        <button type="submit" class="btn" id="btnlogin">Enviar</button>
+        <p class="noregis">No estas registrado aun? Haz clic <a href="singup.html">aqui</a></p>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 TecnoMonos</p>
+      <p>Contacto: info@tecnomonos.com</p>
+      <p>Desarrollado por: Neyder-Dev</p>
+    </footer>
+    <script src="/TiendaPro/Scripts/login.js"></script>
+  </body>
+</html>

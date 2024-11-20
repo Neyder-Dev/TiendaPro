@@ -1,0 +1,174 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    color: #FFE135;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 24px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FFE135;
+}
+
+.login, .logout {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espaciado opcional entre el ícono y el texto */
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+.material-symbols-outlined {
+    font-size: 24px; /* Ajusta según sea necesario */
+}
+
+.frente {
+    background-image: url(../Images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.frente h2 {
+    font-size: 2.5em;
+    color: #FFE135;
+}
+
+.frente p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#compra{
+    margin-left: 45%;
+}
+
+.frente .btn:hover {
+    background-color: #555;
+}
+
+.productos, .servicios {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas por fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 10px; /* Espaciado interno */
+  }
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .card img {
+    width: auto; /* Las imágenes ocuparán todo el ancho disponible */
+    height: 50%; /* La altura se ajustará proporcionalmente */
+    max-height: 200px; /* Limita la altura máxima */
+    margin: 0 auto 10px;
+    display: block;
+  }
+
+.card h3 {
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+}
+
+.contacto {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto input, .contacto textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contacto button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}

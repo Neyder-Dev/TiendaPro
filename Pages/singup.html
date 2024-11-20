@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrate - TecnoMonos</title>
+    <link rel="stylesheet" href="/TiendaPro/Styles/singup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <a href="/TiendaPro/index.html"><h1>TecnoMonos</h1></a>
+      </div>
+      <h3>Formulario de registro</h3>
+    </header>
+    <section class="frente">
+      <h2>Ingresa tus datos 🐒</h2>
+      <form action="RegistraDatos" method="post">
+        <label for="correo">Email: </label>
+        <input type="text" id="correo" maxlength="50" required />
+        <br /><br />
+        <label for="clave">Contrasena: </label>
+        <input type="password" id="clave" maxlength="30" required />
+        <br /><br />
+        <label for="clave2">Confirma Contrasena: </label>
+        <input type="password2" id="clave2" maxlength="30" required />
+        <br><br>
+        <label for="nickname">Nombre de usuario: </label>
+        <input type="text" id="nickname" maxlength="50" required />
+        <br><br>
+        <button type="submit" class="btn">Enviar</button>
+        <p>Ya estas registrado? Haz clic <a href="login.html">aqui</a></p>
+      </form>
+    </section>
+  </body>
+  <footer>
+    <p>&copy; 2024 TecnoMonos</p>
+    <p>Desarrollado por: Neyder-Dev</p>
+  </footer>
+</html>

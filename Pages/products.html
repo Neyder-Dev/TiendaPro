@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecnoMonos - Productos</title>
+    <link rel="stylesheet" href="/TiendaPro/Styles/products.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <a href="/TiendaPro/index.html"><h1>TecnoMonos</h1></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/TiendaPro/index.html">Inicio</a></li>
+          <li><a href="/TiendaPro/index.html#servicios">Servicios</a></li>
+          <li><a href="/TiendaPro/Pages/carrito.html">Carrito</a></li>
+        </ul>
+        <a href="/TiendaPro/Pages/login.html" class="logout"><span class="material-symbols-outlined">logout</span></a>
+      </a>
+      </nav>
+    </header>
+
+    <section id="filtros" class="filtros">
+      <h2>Filtrar Productos</h2>
+      <form>
+        <label for="categoria">Categoría:</label>
+        <select id="categoria">
+          <!--Aqui se llena con la API-->
+        </select>
+
+        <label for="orden">Ordenar por:</label>
+        <select id="orden">
+          <option value="mayor">Mayor venta</option>
+          <option value="menor">Menor venta</option>
+        </select>
+
+        <button type="button" class="btn" onclick="filtrarProductos()">Aplicar Filtros</button>
+      </form>
+    </section>
+
+    <section id="productos" class="productos">
+      <h2>Catálogo de Productos</h2>
+      <div class="grid" id="productosGrid">
+        <!-- Las tarjetas de productos se agregarán dinámicamente aquí -->
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 TecnoMonos</p>
+      <p>Desarrollado por: Neyder-Dev</p>
+    </footer>
+
+    <script src="/TiendaPro/Scripts/filtros.js"></script>
+  </body>
+</html>
